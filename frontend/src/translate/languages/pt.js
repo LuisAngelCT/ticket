@@ -288,20 +288,6 @@ const messages = {
           administration: "Administrador",
           users: "Usuarios",
           settings: "Configuracioes",
-          ZDG: "Envio Automático",
-          ZDGMedia: "Envio de masivos",
-          ZDGGroups: "Grupos",
-          Direct: "Direct IG",
-          SMS: "SMS",
-          VoiceCall: "Chamada Telefônica",
-          ZDGChatbot: "Chatbot",
-          ZDGAgendamento: "Agendadas",
-          ZDGHistorico: "Histórico",
-          Free: "Version Gratuita",
-          Pay: "Version PRO",
-          LicenseComunidade: "Sin Chatbot",
-          LicensePassaporte: "Con Chatbot",
-          LicenseComprar: "Adquirir Licencia"
         },
         appBar: {
           user: {
