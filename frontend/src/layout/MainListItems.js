@@ -161,69 +161,6 @@ const MainListItems = (props) => {
         primary={i18n.t("mainDrawer.listItems.quickAnswers")}
         icon={<QuestionAnswerOutlinedIcon />}
       />
-      <Divider />
-      <ListSubheader inset>
-            {i18n.t("mainDrawer.listItems.Pay")}
-      </ListSubheader>
-      <ListItemLink
-              to="/ZDGHistorico"
-              primary={i18n.t("mainDrawer.listItems.ZDGHistorico")}
-              icon={<SubjectIcon />}
-      />
-      <ListItemLink
-              to="/ZDG"
-              primary={i18n.t("mainDrawer.listItems.ZDG")}
-              icon={<SendIcon />}
-      />
-      <ListItemLink
-              to="/ZDGMedia"
-              primary={i18n.t("mainDrawer.listItems.ZDGMedia")}
-              icon={<BurstModeIcon />}
-      />
-      <ListItemLink
-              to="/ZDGGroups"
-              primary={i18n.t("mainDrawer.listItems.ZDGGroups")}
-              icon={<GroupIcon />}
-      />
-      <ListItemLink
-              to="/InstaDirect"
-              primary={i18n.t("mainDrawer.listItems.Direct")}
-              icon={<InstagramIcon />}
-      />
-      <ListItemLink
-              to="/SMS"
-              primary={i18n.t("mainDrawer.listItems.SMS")}
-              icon={<TextsmsIcon />}
-      />
-      <ListItemLink
-              to="/VoiceCall"
-              primary={i18n.t("mainDrawer.listItems.VoiceCall")}
-              icon={<PhoneInTalkIcon />}
-      />
-      <ListItemLink
-              to="/ZDGAgendamento"
-              primary={i18n.t("mainDrawer.listItems.ZDGAgendamento")}
-              icon={<ScheduleIcon />}
-      />
-      <ListItemLink
-              to="/ZDGChatbot"
-              primary={i18n.t("mainDrawer.listItems.ZDGChatbot")}
-        icon={<AccountTreeIcon />}
-      />
-      <Divider />
-      <ListSubheader inset className={classes.listTitle} >
-            {i18n.t("mainDrawer.listItems.LicenseComprar")}
-      </ListSubheader>
-      <ListItemLink className={classes.listWrap}
-              to="/ZDGComunidade"
-              primary={i18n.t("mainDrawer.listItems.LicenseComunidade")}
-        icon={<PaymentIcon />}
-      />
-      <ListItemLink className={classes.listWrap}
-              to="/ZDGPassaporte"
-              primary={i18n.t("mainDrawer.listItems.LicensePassaporte")}
-        icon={<PaymentIcon />}
-      />
     </div>
   );
 };
